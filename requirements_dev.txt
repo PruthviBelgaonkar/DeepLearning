@@ -5,6 +5,12 @@ numpy
 matplotlib
 notebook
 seaborn
+pyYAML
+tqdm
+ensure==1.0.2
+python-box==6.0.2
+joblib
+
 -e .
 
 #Dev requirements
