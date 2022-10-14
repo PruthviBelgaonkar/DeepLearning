@@ -3,7 +3,8 @@ import urllib.request as request
 from zipfile import ZipFile
 from matplotlib.cbook import flatten
 import tensorflow as tf
-
+from deepClassifier.entity import PrepareBaseModelConfig
+from pathlib import Path
 
 class PrepareBaseModel:
     def __init__(self,config:PrepareBaseModelConfig):
